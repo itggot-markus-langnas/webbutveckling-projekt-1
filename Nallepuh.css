@@ -1,0 +1,31 @@
+.maintoolbar{
+    display: flex;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 50px;
+    border: 1.5px solid darkblue;
+ 
+}
+
+.toolbar1{
+    height: 50px;
+    width: 100%;
+    background-color: aqua;
+    text-align: center;
+    border: 1.5px solid darkblue;
+}
+
+.toolbar2{
+    height: 50px;
+    width: 100%;
+    background-color: aqua;
+    text-align: center;
+    border: 1.5px solid darkblue;
+}
+
+.toolbar3{
+    height: 50px;
+    width: 100%;
+    background-color: aqua;
+    text-align: center;
+    border: 1.5px solid darkblue;
+}
