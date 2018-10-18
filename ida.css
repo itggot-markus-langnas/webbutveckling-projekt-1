@@ -1,3 +1,14 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+
+    background-image: url("bakgrud.png");
+    background-repeat: repeat;
+    background-position: center;
+}
+
+
 .maintoolbar{
     display: flex;
     grid-template-columns: 1fr,1fr,1fr;

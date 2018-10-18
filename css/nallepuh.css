@@ -21,33 +21,31 @@ body{
     display: flex;
     grid-template-columns: 1fr, 1fr, 1fr;
     grid-template-rows: 50px;
-    border: 2.2px solid darkblue;
+    border: 1.5px solid darkblue;
 }
 
 .toolbar1{
     height: 50px;
     width: 100%;
-    background-image: url("C:/Users/thomas.nguyen/Documents/programmering/Dev/Fan Page nalle puh/img/Webp.net-resizeimage.jpg");
+    background-color: aqua;
     text-align: center;
     border: 1.5px solid darkblue;
-    font-family: fantasy;
     
 }
 .toolbar2{
     height: 50px;
     width: 100%;
-    background-color: rgb(2, 219, 219);
+    background-color: aqua;
     text-align: center;
     border: 1.5px solid darkblue;
-    font-family: fantasy;
+
 }
 .toolbar3{
     height: 50px;
     width: 100%;
-    background-color: rgb(2, 219, 219);
+    background-color: aqua;
     text-align: center;
     border: 1.5px solid darkblue;
-    font-family: fantasy;
 
 }
 
