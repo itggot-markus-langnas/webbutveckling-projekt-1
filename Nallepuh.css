@@ -1,9 +1,19 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+
+    background-image: url("Winnie-the-Pooh-patterns-backgrounds-wallpaper-39762319-858-1536.jpg");
+    background-repeat: repeat;
+    background-position: center;
+}
+
+
 .maintoolbar{
     display: flex;
     grid-template-columns: 1fr, 1fr, 1fr;
     grid-template-rows: 50px;
     border: 1.5px solid darkblue;
- 
 }
 
 .toolbar1{
@@ -20,6 +30,8 @@
     background-color: aqua;
     text-align: center;
     border: 1.5px solid darkblue;
+
+
 }
 
 .toolbar3{
@@ -29,3 +41,114 @@
     text-align: center;
     border: 1.5px solid darkblue;
 }
+
+.pic1{
+    box-sizing: border-box;
+    height: 250px;
+    width: 25%;
+    border: 5px solid orange;
+    float: left;
+    margin-left: 2px;
+    margin-top: 1%;
+    background-image: url("nassenff.gif");
+    background-repeat: no-repeat;
+    background-color: palevioletred;
+    background-position: center;
+
+}
+.pic1:hover {
+    transform: scale(1.1);
+ }
+ 
+.pic2{
+    box-sizing: border-box;
+    height: 250px;
+    width: 25%;
+    border: 5px solid orange;
+    float: left;
+    margin-left: 12%;
+    margin-top: 1%;
+    background-image: url("Tiger_Winnie_The_Pooh_1-2.png");
+    background-repeat: no-repeat;
+    background-color: lightsalmon;      
+
+    
+
+}
+.pic2:hover{
+    transform: scale(1.1);
+}
+
+.pic3{
+    box-sizing: border-box;
+    height: 250px;
+    width: 25%;
+    border: 5px solid orange;
+    float: left;
+    margin-left: 10%;
+    margin-top: 1%;
+    background-image: url("IOOOOREEEH.png");
+    background-repeat: no-repeat;
+    background-color: gray;
+    background-position: center;
+}
+.pic3:hover {
+    transform: scale(1.1)
+}
+
+.pic4{
+    box-sizing: border-box;
+    height: 250px;
+    width: 25%;
+    border: 5px solid orange;
+    float: left;
+    margin-left: 2px;
+    margin-top: 2%;
+    background-image: url("o\ vem\ e\ du.png");
+    background-repeat: no-repeat;
+    background-color: chocolate;
+
+
+}
+.pic4:hover {
+    transform: scale(1.1)
+    
+}
+
+.pic5{
+    box-sizing: border-box;
+    height: 250px;
+    width: 25%;
+    border: 5px solid orange;
+    float: left;
+    margin-left: 12%;
+    margin-top: 2%;
+    background-image: url("kanin\ e\ gott2.gif");
+    background-repeat: no-repeat;
+    background-color:yellow;
+    background-position: center;
+
+}
+.pic5:hover {
+    transform: scale(1.1)
+}
+
+
+.pic6{
+    box-sizing: border-box;
+    height: 250px;
+    width: 25%;
+    border: 5px solid orange;
+    float: left;
+    margin-left: 10%;
+    margin-top: 2%;
+    background-image: url("en\ liten\ person.gif");
+    background-color: darkorange;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+.pic6:hover {
+    transform: scale(1.1)
+}
+
