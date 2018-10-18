@@ -54,6 +54,7 @@ body{
     background-repeat: no-repeat;
     background-color: palevioletred;
     background-position: center;
+    text-align: center;
 
 }
 .pic1:hover {
@@ -71,7 +72,7 @@ body{
     background-image: url("Tiger_Winnie_The_Pooh_1-2.png");
     background-repeat: no-repeat;
     background-color: lightsalmon;      
-
+    text-align: center
     
 
 }
@@ -91,6 +92,7 @@ body{
     background-repeat: no-repeat;
     background-color: gray;
     background-position: center;
+    text-align: center
 }
 .pic3:hover {
     transform: scale(1.1)
@@ -107,7 +109,7 @@ body{
     background-image: url("o\ vem\ e\ du.png");
     background-repeat: no-repeat;
     background-color: chocolate;
-
+    text-align: center;
 
 }
 .pic4:hover {
@@ -127,7 +129,7 @@ body{
     background-repeat: no-repeat;
     background-color:yellow;
     background-position: center;
-
+    text-align: center;
 }
 .pic5:hover {
     transform: scale(1.1)
@@ -146,9 +148,16 @@ body{
     background-color: darkorange;
     background-repeat: no-repeat;
     background-position: center;
-   
+   text-align: center;
 }
 .pic6:hover {
     transform: scale(1.1)
 }
 
+.text p{
+    display: none;
+}
+
+.text:hover p{
+    display: block;
+}
